@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends - Kokoa Clone</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="bg_box"></div>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>33%</span>
+            <i class="fas fa-battery-quarter fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+    </header>
+
+    <a id="friends-display-link">
+        <i class="fas fa-info-circle"></i>Friends' Names Display<i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="https://pbs.twimg.com/profile_images/378800000126659781/b1fc649482ad02f4476b9403e4e4e2c3_400x400.jpeg" class="user-component__avatar user-component__avatar--xl" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Bella</h4>
+                    <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+                </div>
+            </div>
+            <div class="user-component__column">
+    
+            </div>
+        </div>
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Friends</span>
+                <i class="fas fa-chevron-up fa-xs"></i>
+            </div>
+        </div>
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="https://pbs.twimg.com/profile_images/478130382198435840/X2k61fxe_400x400.jpeg" class="user-component__avatar user-component__avatar--sm" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title user-component__title--not-bold">Edward</h4>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <div>
+                    <span></span>
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                </div>
+            </div>
+        </div>
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="https://www.nemopan.com/files/attach/images/6296/501/258/002/2.jpg" class="user-component__avatar user-component__avatar--sm" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title user-component__title--not-bold">Jacob</h4>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <div>
+                    <span></span>
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                </div>
+            </div>
+        </div>
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="https://pbs.twimg.com/profile_images/3192789465/850bb7d5d754c4889e6c0c0fe09c10e4_400x400.jpeg" class="user-component__avatar user-component__avatar--sm" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title user-component__title--not-bold">Alice</h4>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <div>
+                    <span></span>
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                </div>
+            </div>
+        </div>
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="https://2.gall-img.com/hygall/files/attach/images/82/963/995/268/83c668226085899adc765652f72d4829.jpg" class="user-component__avatar user-component__avatar--sm" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title user-component__title--not-bold">Jasper</h4>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <div>
+                    <span></span>
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                </div>
+            </div>
+        </div>
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="https://2.gall-img.com/hygall/files/attach/images/82/821/004/267/28a4966018233810886ca80edbf6150c.jpg" class="user-component__avatar user-component__avatar--sm" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title user-component__title--not-bold">Dad</h4>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <div>
+                    <span></span>
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html"><i class="fas fa-user fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">10</span>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__notification"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="splash-screen">
+        <i class="fas fa-moon"></i>
+        <span>Twilight</span>
+    </div>
+
+    <div id="no-mobile">
+        <span>Your screen is supper big 😢</span>
+    </div>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f" crossorigin="anonymous"></script>
+</body>
+</html>
