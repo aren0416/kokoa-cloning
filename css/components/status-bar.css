@@ -27,14 +27,17 @@
 
 .status-bar__column .fa-battery-quarter {
   margin: 0px 5px;
-  animation: charge 2s infinite;
+  animation: charge 1s linear infinite;
 }
 
 @keyframes charge {
   0% {
     color: tomato;
   }
-  100% {
+  50% {
     color: black;
+  }
+  100% {
+    color: tomato;
   }
 }
