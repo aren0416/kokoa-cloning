@@ -1,5 +1,4 @@
 #chat-screen {
-  background-color: #abc1d1;
   height: 100vh;
 }
 
@@ -8,7 +7,6 @@
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: #abc1d1;
   box-sizing: border-box;
 }
 
@@ -42,7 +40,6 @@
 
 .chat__timestamp {
   color: white;
-  background-color: #92a4b2;
   padding: 15px;
   font-size: 14px;
   border-radius: 25px;
@@ -68,7 +65,7 @@
 }
 
 .message__bubble {
-  background-color: white;
+  background-color: rgba(215, 215, 215, 0.5);
   padding: 13px;
   font-size: 18px;
   border-radius: 15px;
@@ -79,6 +76,7 @@
 .message__info {
   display: flex;
   align-items: flex-end;
+  margin-bottom: 15px;
 }
 
 .message__time,
@@ -122,6 +120,7 @@
 
 .reply .reply__column:first-child {
   width: 10%;
+  color: rgba(48, 48, 48);
 }
 
 .reply .reply__column:last-child {
@@ -148,10 +147,11 @@
   right: 40px;
   position: absolute;
   top: 6px;
+  color: rgba(48, 48, 48);
 }
 
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: rgb(249, 231, 255);
   border: none;
   width: 30px;
   height: 30px;

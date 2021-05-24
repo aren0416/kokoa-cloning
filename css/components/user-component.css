@@ -62,6 +62,7 @@
 }
 
 .user-component__time {
+  color: rgba(215, 215, 215, 0.5);
   margin-bottom: 10px;
   display: block;
 }
