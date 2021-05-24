@@ -39,7 +39,7 @@ body {
   top: 0;
   left: 0;
   z-index: -9;
-  background-image: url(https://i.pinimg.com/originals/19/7f/c4/197fc4abf3450105f69a09db53cf274a.gif);
+  background-image: url(../img/star.gif);
   background-size: contain;
   opacity: 0.3;
 }
